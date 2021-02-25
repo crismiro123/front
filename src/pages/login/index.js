@@ -9,7 +9,7 @@ export default function Login({cris}){
     <h1 className="text-style-1">y pide tu pizza favorita.</h1>
         </div>
         <form action="">
-            <label htmlFor="Ingresese Su Nombre"></label>
+            <label htmlFor="Ingresese Su Nombre:"></label>
             <input type="text" text="Entre su nombre"/>
         </form>
         </Page>;
