@@ -1,6 +1,5 @@
-import { r as react } from './index-62b17148.js';
-import { P as Page } from './page-3188b9a2.js';
-import './inject-css-d9f4d27b.js';
+import { r as react, a as reactDom } from './inject-css-ccfe6d81.js';
+import { P as Page } from './page-529abd4f.js';
 
 function Input(props) {
   const {
@@ -36,5 +35,6 @@ function Pizzas() {
 }
 Pizzas.route = "/pizzas";
 
-export default Pizzas;
+const app = document.getElementById('app');
+            reactDom.hydrate(react.createElement(Pizzas, window._props_), app);
 //# sourceMappingURL=pizzas.js.map
