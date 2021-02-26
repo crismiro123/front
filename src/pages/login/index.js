@@ -1,5 +1,7 @@
 import React from 'react';
-import {Page} from '../../components'
+import { Page } from '../../components'
+import { Form } from '../../components'
+import { Input } from '../../components'
 import css from './index.module.css';
 
 export default function Login({cris}){
@@ -8,10 +10,10 @@ export default function Login({cris}){
             <span>Inicia sessión</span>
     <h1 className="text-style-1">y pide tu pizza favorita.</h1>
         </div>
-        <form action="">
-            <label htmlFor="Ingresese Su Nombre:"></label>
-            <input type="text" text="Entre su nombre"/>
-        </form>
+        <Form>
+            <Input></Input>
+            <Input label='Tu nombre:' text={ 'cris' } className='test' /> 
+        </Form>
         </Page>;
 }
 Login.route = '/login';

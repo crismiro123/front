@@ -1,24 +1,6 @@
 import { r as react, a as reactDom } from './inject-css-ccfe6d81.js';
-import { P as Page } from './page-529abd4f.js';
-
-function Input(props) {
-  const {
-    label,
-    className,
-    ...inputProps
-  } = props;
-  return /*#__PURE__*/react.createElement("div", {
-    className: className
-  }, /*#__PURE__*/react.createElement("label", null, label), /*#__PURE__*/react.createElement("input", inputProps));
-}
-
-function Form(props) {
-  const {
-    children,
-    ...restProps
-  } = props;
-  return /*#__PURE__*/react.createElement("form", restProps, children);
-}
+import { P as Page } from './page-b3fdf897.js';
+import { F as Form, I as Input } from './form-5f8ace5d.js';
 
 function Search() {
   return /*#__PURE__*/react.createElement(Form, null, /*#__PURE__*/react.createElement(Input, {
