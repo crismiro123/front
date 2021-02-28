@@ -1,9 +1,11 @@
 import React from 'react';
-import {Page} from '../../components'
+import { Page } from '../../components'
 import '../../styles';
 import css from './index.module.css';
-export default function Home(){
-    return <Page><h1 className={css.home}>Home</h1><input type="date"></input></Page>
+
+export default function Home() {
+    return <Page><h1 className={css.home}>Home</h1>PAGINA PRINCIPAL</Page>
 }
 
 Home.route = '/';
+

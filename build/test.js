@@ -1,4 +1,4 @@
-import { r as react } from './index-62b17148.js';
+import { r as react } from './index-261782d5.js';
 import { n } from './inject-css-d9f4d27b.js';
 
 var css = ".index_module_test__dbcca493 {\r\n    color: red;\r\n}";

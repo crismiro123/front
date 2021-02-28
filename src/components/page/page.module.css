@@ -1,3 +1,5 @@
 .page {
-    color: red;
+    color:black;
+    display: grid;
+    grid-template-rows: 2;
 }
