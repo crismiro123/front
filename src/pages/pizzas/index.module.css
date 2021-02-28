@@ -1,0 +1,9 @@
+.pagina{
+  display:grid;
+  grid-template-columns: 2;
+}
+
+.formulario{
+  display:grid;
+  grid-template-columns: 2;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+.cardcontainer{
+  max-width: 400px;
+  height: auto;
+  color: black;
+  box-shadow: 0px 0px 15px -5px;
+  margin:30px;
+}
+.imagecontainer{
+    max-width: 100%;
+}
+
+.image{
+    max-width: 100%;
+    overflow:hidden;
+    height: auto;
+    background-size: cover;
+}
+
+.title{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif
+}
+
+.cuerpo{
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif
+    
+
+}
