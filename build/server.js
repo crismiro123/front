@@ -54611,7 +54611,7 @@ function before(page) {
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Loading...</title>
+            <title>Las mejores Pizzas!</title>
             <link rel="modulepreload" href="/dist/${page}.js" />
         </head>
         <body>
