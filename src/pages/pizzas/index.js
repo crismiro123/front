@@ -8,7 +8,6 @@ export default function Pizzas() {
     return (
         <Page className={css.pagina}>
             <Search className={css.formulario} />
-            <br></br>
             <PizzaCard />
 
         </Page>

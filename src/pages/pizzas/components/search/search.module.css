@@ -1,6 +1,10 @@
 .buscar{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: 50% 20% 20%;
     
+    
+}
+
+.buscador{
+    width: 400px;
 }

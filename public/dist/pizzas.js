@@ -1,5 +1,5 @@
-import { r as react, n, a as reactDom } from './inject-css-dc255021.js';
-import { m as modules_a0d8d064, P as Page } from './card.module-ed5d406b.js';
+import { r as react, n, a as reactDom } from './inject-css-ccfe6d81.js';
+import { m as modules_a0d8d064, P as Page } from './card.module-657c1a53.js';
 
 function Input(props) {
   const {
@@ -43,8 +43,8 @@ function Card(props) {
   }, /*#__PURE__*/react.createElement("p", null, body)), children);
 }
 
-var css = ".search_module_buscar__1b2dafec{\r\n    display:flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9wYWdlcy9waXp6YXMvY29tcG9uZW50cy9zZWFyY2gvc2VhcmNoLm1vZHVsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osbUJBQW1CO0lBQ25CLDhCQUE4Qjs7QUFFbEMiLCJzb3VyY2VzQ29udGVudCI6WyIuYnVzY2Fye1xyXG4gICAgZGlzcGxheTpmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgIFxyXG59Il19 */";
-var modules_812c1e0e = {"buscar":"search_module_buscar__1b2dafec"};
+var css = ".search_module_buscar__388da197{\r\n    display:grid;\r\n    grid-template-columns: 50% 20% 20%;\r\n    \r\n    \r\n}\r\n\r\n.search_module_buscador__388da197{\r\n    width: 400px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9wYWdlcy9waXp6YXMvY29tcG9uZW50cy9zZWFyY2gvc2VhcmNoLm1vZHVsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osa0NBQWtDOzs7QUFHdEM7O0FBRUE7SUFDSSxZQUFZO0FBQ2hCIiwic291cmNlc0NvbnRlbnQiOlsiLmJ1c2NhcntcclxuICAgIGRpc3BsYXk6Z3JpZDtcclxuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNTAlIDIwJSAyMCU7XHJcbiAgICBcclxuICAgIFxyXG59XHJcblxyXG4uYnVzY2Fkb3J7XHJcbiAgICB3aWR0aDogNDAwcHg7XHJcbn0iXX0= */";
+var modules_812c1e0e = {"buscar":"search_module_buscar__388da197","buscador":"search_module_buscador__388da197"};
 n(css,{});
 
 function Search() {
@@ -59,8 +59,8 @@ function Search() {
   }));
 }
 
-var css$1 = ".pizzacard_module_pizzacard__184a44e1{\r\n    display:flex;\r\n    flex-direction: row;\r\n    justify-content: center;\r\n    margin:auto\r\n    \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9wYWdlcy9waXp6YXMvY29tcG9uZW50cy9waXp6YWNhcmQvcGl6emFjYXJkLm1vZHVsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osbUJBQW1CO0lBQ25CLHVCQUF1QjtJQUN2Qjs7QUFFSiIsInNvdXJjZXNDb250ZW50IjpbIi5waXp6YWNhcmR7XHJcbiAgICBkaXNwbGF5OmZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBtYXJnaW46YXV0b1xyXG4gICAgXHJcbn0iXX0= */";
-var modules_10c1c264 = {"pizzacard":"pizzacard_module_pizzacard__184a44e1"};
+var css$1 = ".pizzacard_module_pizzacard__9925729d{\r\n    display:grid;\r\n    grid-template-columns: 1fr 1fr 1fr;\r\n    grid-template-rows: auto;\r\n    \r\n}\r\n\r\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9wYWdlcy9waXp6YXMvY29tcG9uZW50cy9waXp6YWNhcmQvcGl6emFjYXJkLm1vZHVsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osa0NBQWtDO0lBQ2xDLHdCQUF3Qjs7QUFFNUIiLCJzb3VyY2VzQ29udGVudCI6WyIucGl6emFjYXJke1xyXG4gICAgZGlzcGxheTpncmlkO1xyXG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyIDFmcjtcclxuICAgIGdyaWQtdGVtcGxhdGUtcm93czogYXV0bztcclxuICAgIFxyXG59XHJcblxyXG4iXX0= */";
+var modules_10c1c264 = {"pizzacard":"pizzacard_module_pizzacard__9925729d"};
 n(css$1,{});
 
 function PizzaCard() {
@@ -70,19 +70,31 @@ function PizzaCard() {
     title: "Margarita",
     imageUrl: "https://i1.wp.com/www.thefoodieadventure.com/wp-content/uploads/2020/04/446732665_417279_1.jpg",
     body: "8,99 \u20AC"
-  }), /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement(Card, {
+  }, /*#__PURE__*/react.createElement("button", null, "A\xF1adir al carrito"), /*#__PURE__*/react.createElement("button", null, "Ver m\xE1s")), /*#__PURE__*/react.createElement(Card, {
     title: "Barbacoa",
     imageUrl: "http://wallpaperstock.net/pizza-basil-cheese-vegetables_wallpapers_54017_1280x960.jpg",
     body: "10,99 \u20AC"
-  }), /*#__PURE__*/react.createElement(Card, {
+  }, /*#__PURE__*/react.createElement("button", null, "A\xF1adir al carrito"), /*#__PURE__*/react.createElement("button", null, "Ver m\xE1s")), /*#__PURE__*/react.createElement(Card, {
     title: "Carbonara",
-    imageUrl: "https://lh3.googleusercontent.com/proxy/0UTI6BsCdCmqyHSi7a9lGxL1AjNwSlx262TbX-2QUkQSGDMoIh8wUwd-Pfc3EYtjUWyZVXcM_c-HEImbHvjcilnPEcXdbGEAV1CKNc8FTw",
+    imageUrl: "https://craftlog.com/m/i/4887788=s1280=h960",
     body: "10,99 \u20AC"
-  }));
+  }, /*#__PURE__*/react.createElement("button", null, "A\xF1adir al carrito"), /*#__PURE__*/react.createElement("button", null, "Ver m\xE1s")), /*#__PURE__*/react.createElement(Card, {
+    title: "Carbonara",
+    imageUrl: "https://craftlog.com/m/i/4887788=s1280=h960",
+    body: "10,99 \u20AC"
+  }, /*#__PURE__*/react.createElement("button", null, "A\xF1adir al carrito"), /*#__PURE__*/react.createElement("button", null, "Ver m\xE1s")), /*#__PURE__*/react.createElement(Card, {
+    title: "Carbonara",
+    imageUrl: "https://craftlog.com/m/i/4887788=s1280=h960",
+    body: "10,99 \u20AC"
+  }, /*#__PURE__*/react.createElement("button", null, "A\xF1adir al carrito"), /*#__PURE__*/react.createElement("button", null, "Ver m\xE1s")), /*#__PURE__*/react.createElement(Card, {
+    title: "Carbonara",
+    imageUrl: "https://craftlog.com/m/i/4887788=s1280=h960",
+    body: "10,99 \u20AC"
+  }, /*#__PURE__*/react.createElement("button", null, "A\xF1adir al carrito"), /*#__PURE__*/react.createElement("button", null, "Ver m\xE1s")));
 }
 
-var css$2 = ".index_module_pagina__7ed107e4{\r\n  display:grid;\r\n  grid-template-columns: 2;\r\n}\r\n\r\n.index_module_formulario__7ed107e4{\r\n  display:grid;\r\n  grid-template-columns: 2;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9wYWdlcy9waXp6YXMvaW5kZXgubW9kdWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFlBQVk7RUFDWix3QkFBd0I7QUFDMUI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osd0JBQXdCO0FBQzFCIiwic291cmNlc0NvbnRlbnQiOlsiLnBhZ2luYXtcclxuICBkaXNwbGF5OmdyaWQ7XHJcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAyO1xyXG59XHJcblxyXG4uZm9ybXVsYXJpb3tcclxuICBkaXNwbGF5OmdyaWQ7XHJcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAyO1xyXG59Il19 */";
-var modules_c21c94f2 = {"pagina":"index_module_pagina__7ed107e4","formulario":"index_module_formulario__7ed107e4"};
+var css$2 = ".index_module_pagina__8fc118c8{\r\n  display:grid;\r\n  grid-template-columns: 1fr 1fr;\r\n\r\n\r\n}\r\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9wYWdlcy9waXp6YXMvaW5kZXgubW9kdWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFlBQVk7RUFDWiw4QkFBOEI7OztBQUdoQyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdpbmF7XHJcbiAgZGlzcGxheTpncmlkO1xyXG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjtcclxuXHJcblxyXG59XHJcbiJdfQ== */";
+var modules_c21c94f2 = {"pagina":"index_module_pagina__8fc118c8"};
 n(css$2,{});
 
 function Pizzas() {
@@ -90,7 +102,7 @@ function Pizzas() {
     className: modules_c21c94f2.pagina
   }, /*#__PURE__*/react.createElement(Search, {
     className: modules_c21c94f2.formulario
-  }), /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement(PizzaCard, null));
+  }), /*#__PURE__*/react.createElement(PizzaCard, null));
 }
 Pizzas.route = "/pizzas";
 

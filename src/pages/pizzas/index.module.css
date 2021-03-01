@@ -1,9 +1,6 @@
 .pagina{
   display:grid;
-  grid-template-columns: 2;
-}
+  grid-template-columns: 1fr 1fr;
 
-.formulario{
-  display:grid;
-  grid-template-columns: 2;
+
 }

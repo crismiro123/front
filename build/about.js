@@ -1,5 +1,5 @@
-import { r as react } from './index-261782d5.js';
-import { P as Page } from './card.module-88972292.js';
+import { r as react } from './index-62b17148.js';
+import { P as Page } from './card.module-4ab1625f.js';
 import { n } from './inject-css-d9f4d27b.js';
 
 var css = ".index_module_about__1fd7148c {\r\n    color: green;\r\n}";

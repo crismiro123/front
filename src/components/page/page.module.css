@@ -1,5 +1,10 @@
 .page {
     color:black;
     display: grid;
-    grid-template-rows: 2;
+    grid-template-columns: 40% 60%;
+    
 }
+.nav{
+    background-color: #ef4444;
+    max-width: 600px;
+    }
